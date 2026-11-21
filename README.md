@@ -26,33 +26,19 @@ The dataset contains information about the world's top 200 billionaires, with se
 | `networth_billion` | The billionaire's net worth in billions of US dollars |
 | `industry` | The industry or business sector associated with the billionaire's wealth |
 
-## SQL Concepts Used
-
-The project covers different SQL concepts and functions, including:
-
-- **Data Retrieval:** `SELECT`, `DISTINCT`
-- **Data Filtering:** `WHERE`, `AND`, `IN`, `LIKE`, `BETWEEN`
-- **Data Sorting:** `ORDER BY`, `ASC`, `DESC`, `LIMIT`
-- **Aggregate Functions:** `COUNT()`, `SUM()`, `AVG()`, `MIN()`, `MAX()`
-- **Data Grouping:** `GROUP BY`, `HAVING`
-- **Calculations:** Arithmetic operations, percentages, `ROUND()`
-- **Advanced Queries:** Subqueries (Nested Queries)
-
 ## Project Files
 
 - **`README.md`:** Contains the project overview, questions, SQL queries, and result screenshots.
-- **`Final Project.sql`:** Contains all SQL queries used in the project.
+- **`Project.sql`:** Contains all SQL queries used in the project.
 - **`Top 200 Richest Person in the World.csv`:** The dataset used for the analysis.
 - **`images/`:** Contains the project introductory image and screenshots of SQL query results.
 
 ## How to Run the Queries
 
 1. Open [SQLite Online](https://sqliteonline.com/) and select SQLite.
-2. Import the CSV dataset.
-3. Open the `Final Project.sql` file.
+2. Import the CSV dataset and select **First line** under **Column name**.
+3. Import the `Project.sql` file and select **Show Code** under **Command**.
 4. Run the SQL queries individually to view and explore the results.
-
----
 
 ## SQL Questions, Queries, and Results
 
@@ -292,7 +278,9 @@ AND networth_billion > 50;
 
 **Result**
 
-![](images/13.PNG)
+![](images/13.1.PNG)
+
+![](images/13.2.PNG)
 
 ---
 
@@ -426,14 +414,4 @@ LIMIT 1;
 
 ## Conclusion
 
-This project shows how SQL can be used to explore and analyze data and answer different questions about the world's top 200 billionaires.
-
-Through the 20 SQL questions, the analysis covers wealth distribution, billionaire rankings, age groups, and comparisons between countries and industries. Different SQL functions and techniques are used to organize the data, perform calculations, filter results, and extract useful insights.
-
-Overall, the project provides practical experience in using SQL for data analysis and shows how raw data can be turned into meaningful information.
-
-**Note:** The results are based on the dataset used in this project and do not represent live billionaire rankings.
-
-## Data Source
-
-[Top 200 Richest World's Billionaires Dataset — Kaggle](https://www.kaggle.com/datasets/mayankanand2701/top-200-richest-worlds-billionaires-dataset?resource=download)
+This project shows how SQL can be used to explore and analyze data and answer different questions about the world's top 200 billionaires. Through the 20 SQL questions, the analysis covers wealth distribution, billionaire rankings, age groups, and comparisons between countries and industries. Different SQL functions and techniques are used to organize the data, perform calculations, filter results, and extract useful insights. Overall, the project provides practical experience in using SQL for data analysis and shows how raw data can be turned into meaningful information.
